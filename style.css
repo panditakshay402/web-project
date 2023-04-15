@@ -24,11 +24,11 @@ header{
    
 }
 .navi nav a{
-    text-decoration: none;
+    text-decoration-style: solid;
     color: brown;
+    text-decoration: wavy;
     text-transform: uppercase;
     
-
 }
 
 .navi button{
@@ -49,4 +49,31 @@ header{
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
+}
+
+.reqB{
+    margin-left: 750px;
+    margin-top: 20px;
+}
+/* .para p{
+    padding: 90px 790px;
+   text-decoration: solid;
+   color: #fd7272;
+   font-size: 30px;
+} */
+.reqB p{
+ 
+    text-decoration: solid;
+    color: #fd7272;
+    font-size: 35px;
+}
+.reqB button{
+   
+    padding: 12px 45px;
+    font-size: 20px;
+  
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgba(39, 1, 1, 0.8);
 }
