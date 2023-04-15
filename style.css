@@ -52,8 +52,11 @@ header{
 }
 
 .reqB{
-    margin-left: 750px;
-    margin-top: 20px;
+    margin-left: 800px;
+    margin-top: 180px;
+}
+.para{
+    margin-top: 100px;
 }
 /* .para p{
     padding: 90px 790px;
@@ -66,11 +69,14 @@ header{
     text-decoration: solid;
     color: #fd7272;
     font-size: 35px;
+    /* margin-bottom: 10px;
+    padding-bottom: 10px; */
 }
 .reqB button{
    
     padding: 12px 45px;
     font-size: 20px;
+  /* margin-top: 10px; */
   
     border: none;
     color: #fff;
