@@ -18,6 +18,41 @@ header{
     background-attachment: fixed;
     position: fixed;
 }
+
+nav li {
+    display: inline-block;
+    margin-right: 0px;
+  }
+  nav li.dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  
+  nav .dropdown-menu {
+    display: none;
+    width: 520px;
+    position: absolute;
+    z-index: 999;
+    
+  }
+  
+  nav .dropdown-menu li {
+    display: block;
+  }
+  css
+
+/* Set the background color for the dropdown menu */
+.dropdown {
+  background-color: #fff;
+  
+}
+
+/* Set the background color for the dropdown menu options */
+.dropdown .dropdown-menu {
+  background-color: #ffff;
+  color: #fff;
+  border-radius: 5px;
+}
+
 .navi .logo img{
     padding-left: 5px;
     width: 150px;
