@@ -129,8 +129,12 @@ nav li {
     border-radius: 10px;
     background-color: rgba(39, 1, 1, 0.8);
 }
-
+.vid{
+    height: 800px;
+    background-color: rgb(240, 168, 168);
+}
 .vid video{
+    margin-top: 50px;
     /* display: flex;
     justify-content: space-between; */
     width: 600px;
