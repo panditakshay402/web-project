@@ -70,11 +70,12 @@ nav li {
    
 }
 .navi nav a{
-    width: 150px;
+   
     text-decoration-style: solid;
     color: brown;
     text-decoration: wavy;
     text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -101,7 +102,7 @@ bt1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(252, 121, 121, 0.5);
+    background-color: rgba(250, 183, 183, 0.5);
     z-index: 9;
     border-radius: 15px;
   }
