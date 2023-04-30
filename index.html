@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-analytics.js";></script>
+  
+
 </head>
 <body>
    <header> 
@@ -83,9 +88,18 @@ We look forward to serving you and helping you achieve your health and wellness 
             <ul>
                 <li class="dropdown">
                     <a href="">Our Providers</a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" style="width:200px">
                         <li> 
-                            <p> sab badhiya</p>
+
+
+                            <a href="https://www.apollohospitals.com/"><h5>Apollo</h5></a>
+                        </li>
+                        <li> 
+                            <a href="https://lilavatihospital.com/"><h5>Lilavati</h5></a>
+                        </li>
+                        <li> 
+                          <a href="https://www.fortishealthcare.com/"><h5> Fortis</h5></a>
+                            
 
                         </li>
 
@@ -95,9 +109,15 @@ We look forward to serving you and helping you achieve your health and wellness 
             <ul>
                 <li class="dropdown">
                     <a href="">Our Locations</a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" style="width:290px">
                         <li> 
-                            <p> sab badhiya</p>
+                            <p  > <pre class="navOptTextDesign"><b><u>ADDRESS</u> :</b>  12 Km Stone,
+           Amritsar-Jalandhar,
+           G.T Road,
+           Amritsar-143001(PB) ,
+           India .      
+                                          
+                                  </pre> </p>
 
                         </li>
 
@@ -107,9 +127,14 @@ We look forward to serving you and helping you achieve your health and wellness 
             <ul>
                 <li class="dropdown">
                     <a p href="">Contact Us</a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" style="width:200px">
                         <li> 
-                            <p> sab badhiya</p>
+                            <p class="navOptTextDesign">
+                                <b><u>MOBILE</u> :</b> 
+                                8872009951<br>
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                &nbsp; &nbsp; 8872009950<br>
+                                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(24/7 Support Line)</p>
 
                         </li>
 
@@ -117,27 +142,52 @@ We look forward to serving you and helping you achieve your health and wellness 
                 </li>
             </ul>
 
-            
-            
-            
-            
        </nav>
        
+
+       
+
+
+
+
+
+
+
+
 
        <div id="but1">
         <button id="bt1">Book an Appointment</button>
         <form id="form1" style="display: none;"  >
-          <b>  Name : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b><input type="text" placeholder="Enter your full name"><br><br>
-            <b>Age :</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="num" placeholder="age"> <br><br>
-            <b>gender :</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <select name="gender" title="Gender">
+          <b>  Name : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b>
+
+          <input type="text" id="name" name="name" placeholder="Enter your full name"><br><br>
+
+            <b>Age :</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+             <input id="age" type="num" name="age" placeholder="age"> <br><br>
+
+            <b>gender :</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+            <select id="gender" name="gender" title="Gender">
                 <option value="">Male</option>
                 <option value="">Female</option>
                 <option value="">Trans</option>
             </select> <br><br>
-            <b>Mobile No :</b> &nbsp; &nbsp;&nbsp; &nbsp; <input type="number" placeholder="mob no"> <br><br>      
-            <b>Address :</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" placeholder="Enter your address"><br><br> 
-            <b>Reason for <br> Appointment :</b> &nbsp;<input type="text" placeholder="Reason"><br><br>
-            <b>Submit :</b> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; <input type="submit">
+            <b>Mobile No :</b> &nbsp; &nbsp;&nbsp; &nbsp;
+
+             <input id="number" name="number" type="number" placeholder="mob no"> <br><br>  
+
+            <b>Address :</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+            <input id="address" name="address" type="text" placeholder="Enter your address"><br><br> 
+
+            <b>Reason for <br> Appointment :</b> &nbsp;
+
+            <input id="reason" name="reason" type="text" placeholder="Reason"><br><br>
+
+            <b>Submit :</b> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; 
+
+            <input type="submit" id="submit-btn">
         </form>
        </div>
 
@@ -200,6 +250,6 @@ Medical care, With Compassion
 
     </footer>
     
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>
